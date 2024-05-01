@@ -1,0 +1,68 @@
+{
+    "hotels": [
+        {
+            "title": "Crowne Plaza",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://digital.ihg.com/is/image/ihg/crowne-plaza-kochi-2840203256-2x1?wid=2880&hei=1440&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Le Meridian",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://cache.marriott.com/content/dam/marriott-renditions/COKMD/cokmd-exterior-4412-hor-pano.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=2280px:*"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Mariott",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://cache.marriott.com/content/dam/marriott-renditions/COKMC/cokmc-pool-view-3421-hor-pano.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=2280px:*"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Grand Hyatt",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/02/1036/Grand-Hyatt-Kochi-Bolgatty-P076-Outdoor-Swimming-Pool.jpg/Grand-Hyatt-Kochi-Bolgatty-P076-Outdoor-Swimming-Pool.16x9.jpg?imwidth=1280"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Taj Gateway",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://www.tajhotels.com/content/dam/gateway/hotels/Marine-Drive,Ernakulam/gallery/Ernakulam_Welcome-for-Web_3x2-01.jpg/_jcr_content/renditions/cq5dam.web.756.756.jpeg"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Novotel",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://www.ahstatic.com/photos/b283_ho_01_p_2048x1536.jpg"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Trident",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://www.tridenthotels.com/img/rating-banner.jpg"
+            },
+            "content": "The hotel details are provided by the supplier"
+        },
+        {
+            "title": "Holiday Inn",
+            "subTitle": "Traveldoo Hotel Search App",
+            "image": {
+                "url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/260057774.jpg?k=80ff4aacc08d1e97ad6b52d10d5599310326e7986a1483c66ea81d9671211058&o=&hp=1"
+            },
+            "content": "The hotel details are provided by the supplier"
+        }
+    ]
+}

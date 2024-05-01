@@ -1,0 +1,15 @@
+import { Box } from '@mui/system';
+import React, { FC } from 'react';
+import styles from './RibbonIcon.module.scss';
+
+interface RibbonIconProps { }
+
+const RibbonIcon: FC<RibbonIconProps> = () => (
+  <Box component="span" className={styles.RibbonIcon}>
+    <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.03161 13.1277V0.187866H0.244141V13.1277L4.63788 8.28256L9.03161 13.1277Z" fill="#525153" />
+    </svg>
+  </Box>
+);
+
+export default RibbonIcon;

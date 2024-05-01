@@ -1,0 +1,29 @@
+@import "../../../SideBar/Filter/Filter.module.scss";
+
+@mixin display($name, $value) {
+  #{$name} {
+    display: $value !important;
+  }
+}
+
+@include fill-color(".secondaryColor", $secondaryColor);
+@include pl(".pl3", 3px);
+@include display(".Block", block);
+@include display(".None", none);
+
+.Reset {
+  text-decoration: underline;
+  color: $secondaryColor;
+  padding: {
+    top: 10px !important;
+  }
+  &:hover {
+    text-decoration: none;
+    cursor: pointer !important;
+  }
+}
+
+.FilterChips {
+  padding-top: 5px !important;
+  padding-bottom: 10px !important;
+}

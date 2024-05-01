@@ -1,0 +1,43 @@
+$borderColor: #d2d1d3;
+$primaryColor: #39363a;
+$fontFamily: "Open Sans";
+$linkColor: #225ab8;
+
+@mixin height($name, $value) {
+  #{$name} {
+    height: $value !important;
+  }
+}
+
+@mixin text-color($name, $value) {
+  #{$name} {
+    color: $value !important;
+  }
+}
+
+@mixin text($name, $size, $weight, $height) {
+  #{$name} {
+    font: {
+      family: $fontFamily;
+      size: $size;
+      weight: $weight;
+      color: $primaryColor;
+      style: normal;
+    }
+    line-height: $height;
+    letter-spacing: -0.25px;
+  }
+}
+
+@include height(".hg85pc", 85%);
+@include height(".hg15pc", 15%);
+@include text(".content", 12px, 400, 18px);
+@include text-color(".info", $linkColor);
+
+.Map {
+  height: 260px;
+  background: #ffffff;
+  border: 1px solid $borderColor;
+  box-sizing: border-box;
+  border-radius: 3px;
+}

@@ -1,0 +1,80 @@
+$borderColor: #d2d1d3;
+$primaryColor: #39363a;
+$fontFamily: "Open Sans";
+
+@mixin fill-color($name, $value) {
+  #{$name} {
+    fill: $value;
+  }
+}
+
+@mixin text($name, $size, $weight, $height) {
+  #{$name} {
+    font: {
+      family: $fontFamily;
+      size: $size;
+      weight: $weight;
+      color: $primaryColor;
+      style: normal;
+    }
+    line-height: $height;
+    letter-spacing: -0.25px;
+  }
+}
+
+@mixin pl($name, $value) {
+  #{$name} {
+    padding-left: $value !important;
+  }
+}
+
+@mixin mt($name, $value) {
+  #{$name} {
+    margin-top: $value !important;
+  }
+}
+
+@include fill-color(".public", #525153);
+@include fill-color(".ooPolicy", #e16f6b);
+@include fill-color(".negotiated", #225ab8);
+@include fill-color(".defaultColor", $primaryColor);
+@include text(".content", 12px, 400, 18px);
+@include pl(".pl3", 3px);
+@include mt(".mt5", 6px);
+
+.Legend {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid $borderColor;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: {
+    top: 5px;
+    bottom: 5px;
+  }
+}
+
+.icon {
+  width: 60px;
+  text-align: center;
+}
+
+.stack {
+  padding: 2px 0px 2px 0px;
+}
+
+.Ribbon {
+  position: absolute;
+  left: 87.8%;
+  right: 8.59%;
+  bottom: 96.21%;
+}
+
+.Divider {
+  padding: {
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+  }
+  width: 100% !important;
+}

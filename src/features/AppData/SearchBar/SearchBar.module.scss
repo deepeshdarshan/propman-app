@@ -1,0 +1,50 @@
+$primaryColor: #39363a;
+$fontFamily: "Open Sans";
+
+@mixin content {
+  font: {
+    family: $fontFamily !important;
+    size: 12px !important;
+    weight: 400 !important;
+    color: $primaryColor !important;
+  }
+  line-height: 18px !important;
+  letter-spacing: -0.25px;
+}
+
+.Title {
+  font: {
+    family: $fontFamily !important;
+    size: 14px !important;
+    weight: 800 !important;
+    color: $primaryColor !important;
+    style: normal;
+  }
+  line-height: 25px !important;
+  letter-spacing: -0.25px;
+}
+
+.SearchBar {
+  width: 100%;
+  height: 66px;
+  left: 21.43%;
+  right: 21.43%;
+  top: 10.16%;
+  bottom: 86.39%;
+  background: #ffffff;
+  border: 1px solid #d2d1d3;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.TextField, input[type="text"] {
+  width: 250px !important;
+  @include content;
+}
+
+input[type="tel"] {
+  width: 100px !important;
+  height: 8px !important;
+  @include content;
+}

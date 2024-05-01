@@ -1,0 +1,23 @@
+$primaryColor: #39363a;
+$fontFamily: "Open Sans";
+
+@mixin text($name, $size, $weight, $height) {
+  #{$name} {
+    font: {
+      family: $fontFamily !important;
+      size: $size !important;
+      weight: $weight !important;
+      color: $primaryColor;
+      style: normal;
+    }
+    line-height: $height !important;
+    letter-spacing: -0.25px;
+  }
+}
+
+@include text(".content", 12px, 400, 16px);
+@include text(".Bold", 12px, 700, 16px);
+
+.ht30 {
+  height: 30px !important;
+}

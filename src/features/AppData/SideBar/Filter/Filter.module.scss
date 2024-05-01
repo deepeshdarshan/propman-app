@@ -1,0 +1,89 @@
+$borderColor: #d2d1d3;
+$primaryColor: #39363a;
+$secondaryColor: #025abd;
+$fontFamily: "Open Sans";
+
+@mixin pt($name, $value) {
+  #{$name} {
+    padding-top: $value !important;
+  }
+}
+
+@mixin pb($name, $value) {
+  #{$name} {
+    padding-bottom: $value !important;
+  }
+}
+
+@mixin pl($name, $value) {
+  #{$name} {
+    padding-left: $value !important;
+  }
+}
+
+@mixin text($name, $size, $weight, $height) {
+  #{$name} {
+    font: {
+      family: $fontFamily !important;
+      size: $size !important;
+      weight: $weight !important;
+      color: $primaryColor;
+      style: normal;
+    }
+    line-height: $height !important;
+    letter-spacing: -0.25px;
+  }
+}
+
+@mixin bg-color($name, $value) {
+  #{$name} {
+    background-color: $value;
+  }
+}
+
+@mixin border-color($name, $value) {
+  #{$name} {
+    border-color: $value !important;
+  }
+}
+
+@mixin txt-color($name, $value) {
+  #{$name} {
+    color: $value;
+  }
+}
+
+@mixin fill-color($name, $value) {
+  #{$name} {
+    fill: $value;
+  }
+}
+
+hr {
+  border: 1px solid $borderColor;
+  width: 100%;
+}
+
+.checkbox {
+  bottom: 4px;
+  height: 25px;
+  width: 28px;
+  right: 5px;
+}
+
+.Filter {
+  background: #ffffff;
+  border: 1px solid $borderColor;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: {
+    top: 5px;
+    left: 10px;
+    bottom: 10px;
+  }
+}
+
+@include text(".title", 14px, 800, 25px);
+@include text(".content", 12px, 400, 18px);
+@include pt(".pt10", 10px);
+@include pb(".pb10", 10px);

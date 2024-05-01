@@ -1,0 +1,32 @@
+.Content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  color: #39363a;
+}
+
+.Footer {
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d2d1d3;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 15px;
+  margin-top: 8px;
+  left: 120;
+}
+
+.Privacy {
+  text-decoration: underline;
+  color: #025abd;
+  padding: {
+    top: 10px !important;
+  }
+  &:hover {
+    text-decoration: none;
+    cursor: pointer !important;
+  }
+}

@@ -1,0 +1,7 @@
+@import "../../../../SideBar/Filter/Filter.module.scss";
+
+@include text(".content", 12px, 400, 14px);
+
+.Chip {
+  height: 28px !important;
+}

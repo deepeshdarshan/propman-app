@@ -1,0 +1,24 @@
+@import "../Filter.module.scss";
+
+$prefSelectedColor: #fff;
+
+@include pl(".pl3", 3px);
+@include bg-color(".bgSelectedColor", $secondaryColor);
+@include border-color(".bgSelectedColor", $secondaryColor);
+@include txt-color(".txtSelectedColor", $prefSelectedColor);
+@include txt-color(".txtDefaultColor", $primaryColor);
+@include fill-color(".fillSelectedColor", $prefSelectedColor);
+@include fill-color(".fillDefaultColor", $primaryColor);
+
+.preferenceBlock {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #bab9b9;
+  padding: 6px;
+  cursor: pointer;
+  padding: {
+    right: 7px;
+    left: 7px;
+  }
+}
